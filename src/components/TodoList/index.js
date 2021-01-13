@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
 
 import { addTodo } from '../../store/modules/todo/actions'
-
 import TodoItens from '../TodoItens'
+
 import {
   Container,
   FormContainer,

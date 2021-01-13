@@ -17,7 +17,7 @@ export const Item = styled.TouchableOpacity`
   align-items: flex-start;
   justify-content: center;
   border-width: 1px;
-  border-color: #fff;
+  border-color: ${({ active }) => (!active ? '#516dca' : '#ccc')};
   border-radius: 5px;
   padding: 10px;
   height: 100%;

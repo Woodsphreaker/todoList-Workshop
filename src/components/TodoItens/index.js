@@ -27,6 +27,7 @@ const TodoItens = () => {
         return (
           <ItemContainer key={todo.name}>
             <Item
+              active={todo.active}
               name={todo.name}
               onPress={() => handlePressChangeStatusTodo(todo)}>
               <ItemText active={todo.active}>{todo.name}</ItemText>
