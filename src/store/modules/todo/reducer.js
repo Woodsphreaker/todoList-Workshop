@@ -29,6 +29,7 @@ const todo = (state = INITIAL_STATE, action) => {
           active: name === payload.name ? !active : active,
         }
       })
+      console.tron.log('status', todos)
 
       return { ...state, todos }
     },

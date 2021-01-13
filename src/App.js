@@ -4,6 +4,8 @@ import AppContainer from './components/AppContainer'
 import { Provider } from 'react-redux'
 import store from './store/index'
 
+import './config/reactotron'
+
 const App = () => {
   return (
     <Provider store={store}>

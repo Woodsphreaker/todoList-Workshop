@@ -21,11 +21,11 @@ export const Item = styled.TouchableOpacity`
   border-radius: 5px;
   padding: 10px;
   height: 100%;
-  opacity: ${(props) => (props.active ? 1 : 0.1)};
 `
 
 export const ItemText = styled.Text`
   color: #fff;
+  text-decoration: ${({ active }) => (!active ? 'line-through' : 'none')};
 `
 
 export const RemoveTodo = styled.TouchableOpacity`
